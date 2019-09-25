@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}  
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(20, 79, 204);
+  }
+  .main-container {
+      display: grid;
+      height: 100%;
+      grid-template-rows: 1fr 12fr 1fr;
+  }
+  .row-one ,.row-two, .row-three{
+      display: grid;
+      grid-template-columns: 1fr 6fr 1fr
+  }
+  .row-two {
+      background-color:rgb(109, 24, 189);
+  }
+  .row-three {}
+  .container-padding {
+      margin: 3px;
+      border: 1px dashed rgb(0, 190, 10);
+  }
